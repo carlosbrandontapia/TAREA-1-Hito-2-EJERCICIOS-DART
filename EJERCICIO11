@@ -1,0 +1,10 @@
+void main() {
+  List<int> numeros = [10, 20, 30];
+  int suma = 0;
+
+  for (int n in numeros) {
+    suma += n;
+  }
+
+  print("Suma: $suma");
+}
