@@ -1,0 +1,13 @@
+void main() {
+  String palabra = "programacion";
+  int contador = 0;
+
+  for (int i = 0; i < palabra.length; i++) {
+    String letra = palabra[i].toLowerCase();
+    if ("aeiou".contains(letra)) {
+      contador++;
+    }
+  }
+
+  print("Vocales: $contador");
+}
